@@ -1,4 +1,4 @@
-const { Guerrier, Mage, Voleur } = require('./character.js');
+const { Guerrier, Mage, Voleur } = require("./class");
 
 describe("Test de création de personnage", () => {
     test("Création d'un Guerrier valide", () => {

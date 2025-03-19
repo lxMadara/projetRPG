@@ -21,22 +21,4 @@ class Character {
     }
 }
 
-class Guerrier extends Character {
-    constructor(name) {
-        super(name, "Guerrier", { force: 10, intelligence: 3, agilité: 5 });
-    }
-}
-
-class Mage extends Character {
-    constructor(name) {
-        super(name, "Mage", { force: 3, intelligence: 10, agilité: 5 });
-    }
-}
-
-class Voleur extends Character {
-    constructor(name) {
-        super(name, "Voleur", { force: 5, intelligence: 5, agilité: 10 });
-    }
-}
-
-module.exports = { Guerrier, Mage, Voleur };
+module.exports = Character;
